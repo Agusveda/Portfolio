@@ -141,6 +141,96 @@ footer{
     height: 250px;
 }
 
+.Contacto h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+}
+
+.Formulario {
+    width: 50%; 
+    margin: 40px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+form label, form legend{ 
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #4B6CB7;
+    border: none;
+    border-radius: 5px;
+    margin: 0 40px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+
+.enviar:hover{
+    background: #4B6CB7;
+    transform: scale(1.2);
+
+}
+.Redes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: #202152;
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+}
+
+footer {
+    background-color: #58aa8e; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+#Redes {
+    margin-bottom: 10px; 
+}
+
+footer img {
+    width: 50px; 
+    margin: 0 10px; 
+}
 
 
 
